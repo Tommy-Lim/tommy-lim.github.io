@@ -203,18 +203,32 @@ header .intro-text .skills {
 
 .img-profile{
   border-radius: 50%;
-  box-shadow: 3px 3px 15px #ddd;
+  box-shadow: 3px 3px 15px #ccc;
 }
 
 .img-fun-div{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .img-fun-div img{
   max-width: 200px;
   max-height: 200px;
   border-radius: 50%;
   box-shadow: 3px 3px 15px #444;
+}
+
+.about-text{
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .img-fun-div{
+    display: flex;
+    justify-content: center;
+  }
+  .about-text{
+    text-align: left;
+  }
 }
 
 section {
@@ -245,6 +259,7 @@ section.success {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+  box-shadow: 3px 3px 15px #ccc;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(24, 188, 156, 0.9);
@@ -284,6 +299,13 @@ section.success {
     margin: 0 0 30px;
   }
 }
+#portfolio .portfolio-item{
+  /*margin: 0px 0px;*/
+  /*padding: 0px 0px;*/
+  /*margin-left: 15px;
+  margin-right: 15px;*/
+}
+
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
