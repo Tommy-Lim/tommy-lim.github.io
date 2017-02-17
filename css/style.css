@@ -590,3 +590,7 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+.modal-body img{
+  box-shadow: 0px 3px 10px #444;  
+}
