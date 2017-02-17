@@ -129,7 +129,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-brand.logo-name{
   font-weight: 700;
-  color: steelblue;
+  /*color: steelblue;*/
 }
 .navbar-custom a:focus {
   outline: none;
@@ -141,7 +141,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: steelblue;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
