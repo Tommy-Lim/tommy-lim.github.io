@@ -224,6 +224,17 @@ header .intro-text .skills {
   text-align: right;
 }
 
+.icons-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-icons{
+  font-size: 70px;
+  padding: 5px;
+}
+
 .resume-container{
   display: flex;
   justify-content: center;
@@ -286,10 +297,11 @@ section.success {
   position: relative;
   max-width: 500px;
   margin: 0 auto;
-  box-shadow: 3px 3px 15px #ccc;
+  box-shadow: 3px 3px 15px #444;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(72, 129, 180, 0.95);
+  /*background: rgba(72, 129, 180, 0.95);*/
+  background: rgba(30, 30, 30, 0.95);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -307,12 +319,12 @@ section.success {
   height: 100%;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
 }
 .caption-content div{
   text-align: center;
-  padding: 5px 5px;
+  padding: 20px 5px;
   width: 100%;
 }
 .caption-content .caption-title{
@@ -321,6 +333,10 @@ section.success {
 .caption-content .caption-body{
   padding: 0 0;
 }
+.caption-content .caption-body ul{
+  padding: 0 0;
+  margin-bottom: 0;
+}
 .caption-content .caption-body .btn-outline{
   margin-top: 0;
 }
@@ -328,15 +344,13 @@ section.success {
   margin-left: 0;
 }
 .caption-content .caption-footer{
-  font-size: 14px;
-  background-color: rgba(84, 88, 96, 0.95);
-  position: absolute;
-  bottom: 0;
-  line-height: 30px;
-  height: 40px;
+  font-size: 16px;
 }
 
 @media (max-width: 992px){
+  .caption-content div{
+    padding: 10px 5px;
+  }
   .caption-content .caption-title{
     font-size: 22px;
   }
