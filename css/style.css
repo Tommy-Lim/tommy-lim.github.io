@@ -22,7 +22,7 @@ body {
   /*font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
-  background-color: #F5F5F5;
+  /*background-color: #F5F5F5;*/
 }
 p {
   font-size: 16px;
@@ -245,6 +245,11 @@ header .intro-text .skills {
   height: calc(129%);
   max-height: 1100px;
   max-width: 850px;
+  box-shadow: 3px 3px 15px #444;
+}
+
+.resume-container iframe{
+  border: 0;
   box-shadow: 3px 3px 15px #444;
 }
 @media (max-width: 992px){
