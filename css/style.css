@@ -221,6 +221,13 @@ header .intro-text .skills {
 .tech-icons{
   font-size: 70px;
   padding: 5px;
+  display: flex;
+}
+
+.devicon-git-plain {
+  max-width: 2em;
+  max-height: 75px;
+  height: 75px;
 }
 
 .resume-container{
