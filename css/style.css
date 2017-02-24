@@ -119,8 +119,28 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-brand.logo-name{
   font-weight: 700;
+  padding: 5px;
   /*color: steelblue;*/
 }
+
+#name-icon{
+  height: 135%;
+  margin-top: -7px;
+}
+#name-icon:hover{
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  #name-icon{
+    height: 40px;
+    width: 40px;
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+}
+
 .navbar-custom a:focus {
   outline: none;
 }
