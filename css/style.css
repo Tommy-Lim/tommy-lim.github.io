@@ -705,6 +705,6 @@ fieldset[disabled] .btn-success.active {
   display: none;
 }
 
-/*.modal-body img{
+.modal-body img{
   box-shadow: 0px 3px 10px #444;
-}*/
+}
