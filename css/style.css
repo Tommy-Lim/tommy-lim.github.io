@@ -311,6 +311,11 @@ section.success {
     padding-top: 75px;
   }
 }
+
+.beacon-purple{
+  background-color: #160D31;
+}
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -320,7 +325,7 @@ section.success {
   position: relative;
   max-width: 500px;
   margin: 0 auto;
-  box-shadow: 3px 3px 15px #444;
+  box-shadow: 3px 3px 15px #000;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   /*background: rgba(72, 129, 180, 0.95);*/
@@ -333,6 +338,14 @@ section.success {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
+
+@media (max-width: 767px){
+  #portfolio .portfolio-item .portfolio-link .caption {
+    opacity: 1;
+  }
+}
+
+
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
@@ -351,7 +364,7 @@ section.success {
   width: 100%;
 }
 .caption-content .caption-title{
-  font-size: 26px;
+  font-size: 30px;
 }
 .caption-content .caption-body{
   padding: 0 0;
@@ -379,7 +392,7 @@ section.success {
     padding: 10px 5px;
   }
   .caption-content .caption-title{
-    font-size: 22px;
+    font-size: 26px;
   }
   .caption-content .caption-footer{
     font-size: 12px;
@@ -692,6 +705,6 @@ fieldset[disabled] .btn-success.active {
   display: none;
 }
 
-.modal-body img{
+/*.modal-body img{
   box-shadow: 0px 3px 10px #444;
-}
+}*/
