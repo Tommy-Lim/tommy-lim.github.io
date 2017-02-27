@@ -1,1 +1,1 @@
-[tommy-lim.com](www.tommy-lim.com)
+[tommy-lim.com](http://www.tommy-lim.com)
