@@ -2,18 +2,16 @@ $( document ).ready(function() {
     window.sr = ScrollReveal({
       duration: 900
     });
-    // sr.reveal('.star-light');
+
     sr.reveal('header');
-    // sr.reveal('.star-primary');
-    // sr.reveal('.resume-container');
     sr.reveal('.tech-icons', 75);
     sr.reveal('.portfolio-item', 75);
     sr.reveal('.footer-col a', 75);
+
 });
 
 (function($) {
     "use strict"; // Start of use strict
-
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('.page-scroll a').bind('click', function(event) {
