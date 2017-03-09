@@ -8,6 +8,12 @@ $( document ).ready(function() {
     sr.reveal('.portfolio-item', 75);
     sr.reveal('.footer-col a', 75);
 
+    // check if mobile and apply css
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      console.log('is mobile');
+      $('.caption').css('opacity', '1');
+    }
+
 });
 
 (function($) {
