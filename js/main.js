@@ -4,9 +4,9 @@ $( document ).ready(function() {
     });
 
     sr.reveal('header');
-    sr.reveal('.tech-icons', 75);
-    sr.reveal('.portfolio-item', 75);
-    sr.reveal('.footer-col a', 75);
+    sr.reveal('.tech-icons', 25);
+    sr.reveal('.portfolio-item', 25);
+    sr.reveal('.footer-col a', 25);
 
     // check if mobile and apply css
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {

@@ -102,7 +102,7 @@ header .intro-text .skills {
     padding-bottom: 100px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 3.75em;
   }
   header .intro-text .skills {
     font-size: 1.75em;
@@ -242,7 +242,7 @@ header .intro-text .skills {
 }
 
 .tech-icons{
-  font-size: 70px;
+  font-size: 78px;
   padding: 5px;
   display: flex;
 }
@@ -711,4 +711,16 @@ fieldset[disabled] .btn-success.active {
 
 .modal-body.no-shadow img{
   box-shadow: 0px 0px 0px #000;
+}
+
+@media(max-width: 400px){
+  .tech-icons{
+    font-size: 58px;
+  }
+  .devicon-git-plain{
+    height: 60px;
+  }
+  section h2{
+    font-size: 2em;
+  }
 }
