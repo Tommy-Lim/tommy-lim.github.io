@@ -242,6 +242,10 @@ header .intro-text .skills {
   top: 0;
   left: 0;
 }
+/*
+canvas{
+  position: absolute;
+}*/
 
 .img-profile{
   border-radius: 50%;
@@ -527,8 +531,7 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #444;
-  background-image: radial-gradient(#333, #222);
+  background-image: radial-gradient(#444, #4e4e4e);
 }
 .btn-outline {
   color: white;
