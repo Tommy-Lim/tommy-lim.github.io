@@ -88,6 +88,7 @@ header .container {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 header img {
   display: block;
@@ -226,6 +227,8 @@ header .intro-text .skills {
 .chevron-container{
   position: absolute;
   bottom: 5vh;
+  left: calc(50% - 28px);
+  text-align: center;
 }
 
 .chevron-container a{
