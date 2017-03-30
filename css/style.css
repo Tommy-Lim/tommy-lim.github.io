@@ -187,7 +187,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 15px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -527,14 +527,14 @@ footer h3 {
 footer .footer-above {
   padding-top: 50px;
   /*background-color: #55585f;*/
-  background-image: radial-gradient(#69baff, #2199ff);
+  background-image: linear-gradient(#69baff, #007fe9);
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-image: radial-gradient(#444, #4e4e4e);
+  background-image: linear-gradient(#444, #4e4e4e);
 }
 .btn-outline {
   color: white;
