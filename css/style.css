@@ -1,6 +1,6 @@
 /*COLORS:
 
-teal: steelblue;
+teal: #69baff;
 light blue: 00BCE8
 blue: #009AD6;
 grey-blue: 55585f
@@ -26,7 +26,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: steelblue;
+  color: #69baff;
   outline: none;
 }
 h1,
@@ -60,7 +60,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: steelblue;
+  background-color: #69baff;
   color: white;
 }
 hr.star-primary {
@@ -129,7 +129,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand.logo-name{
   font-weight: 700;
   padding: 5px;
-  /*color: steelblue;*/
+  /*color: #69baff;*/
 }
 
 .navbar-custom a:focus {
@@ -142,7 +142,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: steelblue;
+  color: #69baff;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
@@ -151,7 +151,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: steelblue;
+  color: #69baff;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -160,15 +160,15 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  /*background: steelblue;*/
+  /*background: #69baff;*/
   background: inherit;
-  border-bottom: 4px solid steelblue;
+  border-bottom: 4px solid #69baff;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: steelblue;
+  background: #69baff;
   background: inherit;
 }
 .navbar-custom .navbar-toggle {
@@ -180,9 +180,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: steelblue;
+  background-color: #69baff;
   color: white;
-  border-color: steelblue;
+  border-color: #69baff;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -346,8 +346,8 @@ section h2 {
   font-size: 2.75em;
 }
 section.success {
-  background: steelblue;
-  background-image: radial-gradient(steelblue, #448);
+  background: #69baff;
+  background-image: radial-gradient(#007fe9, #69baff);
   color: white;
 }
 @media (max-width: 767px) {
@@ -366,11 +366,13 @@ section.success {
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 500px;
+  /*max-width: 500px;*/
   margin: 0 auto;
   box-shadow: 3px 3px 15px #000;
 }
@@ -456,7 +458,7 @@ section.success {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    margin: 0 0 10px;
   }
 }
 
@@ -504,7 +506,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: steelblue;
+  color: #69baff;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -518,7 +520,7 @@ footer h3 {
 footer .footer-above {
   padding-top: 50px;
   /*background-color: #55585f;*/
-  background-image: radial-gradient(#55585f, #333);
+  background-image: radial-gradient(#69baff, #2199ff);
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -540,14 +542,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: steelblue;
+  color: #69baff;
   background: white;
   border: solid 2px white;
 }
 .btn-outline-dark {
-  color: steelblue;
+  color: #69baff;
   font-size: 20px;
-  border: solid 2px steelblue;
+  border: solid 2px #69baff;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -557,8 +559,8 @@ footer .footer-below {
 .btn-outline-dark:active,
 .btn-outline-dark.active {
   color: white;
-  background: steelblue;
-  border: solid 2px steelblue;
+  background: #69baff;
+  border: solid 2px #69baff;
 }
 .btn-primary {
   color: white;
@@ -604,8 +606,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: steelblue;
-  border-color: steelblue;
+  background-color: #69baff;
+  border-color: #69baff;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -637,11 +639,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: steelblue;
-  border-color: steelblue;
+  background-color: #69baff;
+  border-color: #69baff;
 }
 .btn-success .badge {
-  color: steelblue;
+  color: #69baff;
   background-color: white;
 }
 .btn-social {
@@ -658,7 +660,7 @@ fieldset[disabled] .btn-success.active {
   display: inline-block;
   height: 50px;
   width: 50px;
-  border: 2px solid steelblue;
+  border: 2px solid #69baff;
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
