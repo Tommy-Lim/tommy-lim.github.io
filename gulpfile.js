@@ -20,14 +20,13 @@ var cssnano = require('cssnano');
 
 // FOLDER STRUCTURE
 var folder = {
-  src: '/',
   build: 'build/'
 }
 
 // IMAGES PROCESSING AND COMPRESSING NEW IMAGES
 gulp.task('images', function(){
   var out = folder.build + 'img/';
-  return gulp.src(folder.src + 'img/**/*')
+  return gulp.src('img/**/*')
     .pipe(newer(out))
     .pipe(imagemin({optimizationLevel: 5}))
     .pipe(gulp.dest(out));
@@ -35,7 +34,7 @@ gulp.task('images', function(){
 
 // HTML PROCESSING
 gulp.task('html', ['images'], function(){
-  var out = folder.build + 'html/';
+  var out = folder.build;
   var page = gulp.src('index.html')
     .pipe(newer(out));
 
@@ -47,7 +46,7 @@ gulp.task('html', ['images'], function(){
 // JS PROCESSING
 gulp.task('js', function(){
   var out = folder.build + 'js/';
-  var jsbuild = gulp.src(folder.src + 'js/**/*')
+  var jsbuild = gulp.src('js/**/*')
     .pipe(deporder())
     .pipe(concat('main.js'))
 
@@ -68,7 +67,7 @@ gulp.task('css', ['images'], function(){
 
   postCssOpts.push(cssnano);
 
-  return gulp.src(folder.src + 'css/style.css')
+  return gulp.src('css/style.css')
     .pipe(sass({
       outputStyle: 'nested',
       imagePath: 'img/',
