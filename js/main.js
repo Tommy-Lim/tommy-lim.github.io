@@ -1,5 +1,5 @@
 window.addEventListener('load', function(){
-  $("#load-overlay").fadeOut();
+  $("#load-overlay").fadeOut("slow");
 });
 
 $( document ).ready(function() {
