@@ -1,3 +1,8 @@
+// $("#background-image-element").ready(function(){
+//   var element = document.getElementById("load-overlay");
+//   element.style.display = "none";
+// });
+
 window.addEventListener('load', function(){
   var element = document.getElementById("load-overlay");
   element.style.display = "none";
