@@ -1,11 +1,5 @@
-// $("#background-image-element").ready(function(){
-//   var element = document.getElementById("load-overlay");
-//   element.style.display = "none";
-// });
-
 window.addEventListener('load', function(){
-  var element = document.getElementById("load-overlay");
-  element.style.display = "none";
+  $("#load-overlay").fadeOut();
 });
 
 $( document ).ready(function() {
@@ -13,7 +7,7 @@ $( document ).ready(function() {
       duration: 900
     });
 
-    sr.reveal('header .container');
+    // sr.reveal('header .container');
     sr.reveal('.tech-icons', 25);
     sr.reveal('.portfolio-item', 25);
     sr.reveal('.footer-col a', 25);

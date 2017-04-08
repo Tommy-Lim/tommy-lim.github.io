@@ -20,8 +20,8 @@ body {
   top: 0;
   left:  0;
   z-index: 1031;
-  /*background-image: radial-gradient(#007fe9, #69baff);*/
   background-color: white;
+  background-image: radial-gradient(#007fe9, #69baff);
   width: 100%;
   height: 100%;
 }
